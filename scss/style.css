@@ -1,0 +1,428 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contacto-nav {
+  background-color: rgba(2, 2, 34, 0.966);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.Nav-link {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 255, 0.363);
+}
+
+header {
+  color: white;
+  background-color: rgba(2, 2, 34, 0.966);
+  height: 100px;
+  width: 100 px;
+  line-height: 100px;
+}
+
+body {
+  background: rgba(0, 0, 139, 0.514);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(/mi_repositorio/pages/imagenes/pexels-victor-freitas-841130\ \(3\).jpg);
+  background-size: cover;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+.piedepagina {
+  position: absolute;
+  bottom: 10px;
+  right: 550px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+
+.imagen {
+  right: 10px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#titulo-formulario {
+  text-align: center;
+}
+
+#boton {
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  position: relative;
+}
+
+#titulocontacto {
+  position: relative;
+  right: 220px;
+}
+
+.Rutinas {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#titulo-Fitco {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+#Nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#Map {
+  left: 400px;
+  position: relative;
+  color: white;
+}
+
+#piedepagina-nosotros {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 21px;
+}
+
+#ayuda {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.titulo-ayuda {
+  text-align: center;
+}
+
+#formulario-ayuda {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#titulo-mapa {
+  color: white;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1, 100px);
+  justify-content: center;
+  align-items: center;
+}
+
+.header-index, .grid-nav {
+  grid-column: 100vh;
+  background-color: rgba(2, 2, 34, 0.966);
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.header-index {
+  display: flex;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  justify-content: center;
+  color: white;
+  width: 136vh;
+}
+
+.footer-index {
+  width: 100vh;
+  display: flex;
+  color: white;
+  font-size: larger;
+  height: 150px;
+  grid-column: 100vh;
+  background-color: rgba(2, 2, 34, 0.966);
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100vh;
+}
+
+.grid-nav {
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-index {
+    width: 210vh;
+    justify-content: space-evenly;
+  }
+  .grid-nav, .h3-index, .ul-index {
+    gap: 190px;
+    justify-content: flex-start;
+  }
+  .seccion-index {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }
+}
+.flex-container-ayuda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20p;
+}
+
+.ayuda-body {
+  background-size: cover;
+}
+
+.ayuda-container {
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-ayuda {
+  height: 50px;
+  width: 300px;
+}
+
+#ayuda {
+  text-align: end;
+}
+
+.ayuda-nav {
+  background-color: rgba(2, 2, 34, 0.966);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-ayuda {
+  width: 100vh;
+  display: flex;
+  color: white;
+  font-size: larger;
+  height: 150px;
+  grid-column: 100vh;
+  background-color: rgba(2, 2, 34, 0.966);
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 481px) {
+  .ayuda-nav {
+    gap: 5px;
+    width: 90vh;
+  }
+  .footer-ayuda {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer-ayuda {
+    width: 210vh;
+    justify-content: space-between;
+  }
+}
+.flex-container-rutina {
+  width: 100vh;
+  height: 100vh;
+}
+
+.rutina-nav {
+  background-color: rgba(2, 2, 34, 0.966);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-rutina {
+  width: 100vh;
+}
+
+.seccion-video {
+  size: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .rutina-nav {
+    width: 1500px;
+    justify-content: flex-start;
+    gap: 230px;
+  }
+  .header-rutina {
+    width: 1500px;
+    left: 600px;
+  }
+  .Rutinas {
+    flex-direction: row;
+    gap: 2px;
+  }
+}
+.footer-contacto {
+  width: 100vh;
+  display: flex;
+  color: white;
+  font-size: larger;
+  height: 300px;
+  background-color: rgba(2, 2, 34, 0.966);
+  justify-content: center;
+  align-items: center;
+}
+
+.body-contacto {
+  height: 100vh;
+}
+
+#contacto-container {
+  display: flex;
+}
+
+.contacto-nav-2 {
+  background-color: rgba(2, 2, 34, 0.966);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Contacto-Container {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.Contacto-mensaje {
+  color: white;
+  text-align: center;
+}
+
+.boton-contacto {
+  text-align: center;
+}
+
+.contacto-subtitulo {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-contacto {
+    height: 150px;
+    width: 210vh;
+  }
+  .contacto-nav-2 {
+    width: 205vh;
+    justify-content: flex-start;
+    gap: 150px;
+  }
+  .header-contacto {
+    width: 210vh;
+  }
+  .Contacto-Container {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  .Contacto-mensaje {
+    text-align: center;
+  }
+  .boton-contacto {
+    text-align: center;
+  }
+  .contacto-titulo {
+    display: block;
+  }
+}
+.nosotros-nav {
+  background-color: rgba(2, 2, 34, 0.966);
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-nosotros {
+  width: 105vh;
+  display: flex;
+  color: white;
+  font-size: larger;
+  height: 150px;
+  background-color: rgba(2, 2, 34, 0.966);
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-mapa {
+  color: white;
+  text-align: center;
+}
+
+.nosotros {
+  text-align: end;
+}
+
+.header-nosotros {
+  width: 105vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-nosotros {
+    width: 210vh;
+  }
+  .nosotros-nav {
+    justify-content: flex-start;
+    gap: 180px;
+  }
+  .footer-nosotros {
+    width: 210vh;
+  }
+  .map {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
