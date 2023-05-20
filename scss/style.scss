@@ -1,0 +1,523 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+$colorfondonav:rgba(2, 2, 34, 0.966);;
+$colortexto:white; 
+
+.grid-nosotros{
+display: grid;
+grid-template-areas: 
+"header"
+"texto"
+"mapa"
+"footer";
+}
+
+.header-nosotros{
+    grid-area: header;
+    background-color: $colorfondonav;
+    color: $colortexto;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    
+    
+}
+.footer-nosotros{
+    grid-area: footer ;
+    background-color: $colorfondonav;
+    color: $colortexto;
+    display: flex;
+   justify-content: center;
+    height: 150px;
+    align-items: center;
+    gap: 30px;
+
+}
+.mapa-nosotros{
+    grid-area: mapa;
+    padding: 20px;
+}
+.texto-nosotros{
+   
+    grid-area: texto;
+}
+ol,li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+@media (min-width:600px){
+.grid-nosotros{
+ grid-template-areas:
+ "header header"
+ "mapa texto"
+ "footer footer";
+}
+.mapa-nosotros{
+    text-align: center;
+}
+.texto-nosotros{
+    text-align: center;
+}
+.text-nosotros{
+    font-size: 30px;
+
+}}
+    
+
+
+
+.contacto-nav{
+    background-color:$colorfondonav ;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.Nav-link{
+
+    color: $colortexto;;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.363);
+    
+    
+  
+}
+header{
+    color: $colortexto;
+    background-color:$colorfondonav ;
+    height: 100px;
+    width: 100 px;
+    
+    line-height: 100px;
+    
+}
+
+
+
+body{
+    background: rgba(0, 0, 139, 0.514);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-image: url(/mi_repositorio/pages/imagenes/pexels-victor-freitas-841130\ \(3\).jpg);
+background-size: cover;
+
+}
+
+
+
+
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+.piedepagina{
+    position: absolute;
+    bottom: 10px;
+    right: 550px;
+    display: flex;
+    
+    
+   color: $colortexto;
+   font-size: 20px;
+
+    
+}
+.imagen{
+    right: 10px;
+    
+
+}
+
+
+
+
+    
+   
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#titulo-formulario{
+    text-align: center;
+}
+#boton{
+    text-align: center;
+    padding: 15px;
+}
+
+
+h2{
+    color: $colortexto;
+   
+    position: relative;
+}
+#titulocontacto{
+    position: relative;
+    right: 220px;
+}
+.Rutinas{
+display: flex;
+flex-direction: column;
+
+
+margin: 10px;
+
+
+
+}
+
+
+
+
+#titulo-Fitco{
+    color: $colortexto;
+    text-decoration: none;
+}
+p{
+    color: $colortexto;
+    text-align: center;
+}
+
+
+
+
+
+#ayuda{
+    text-align: center;
+    
+    color: $colortexto;
+   margin-top: 30px;
+    
+}
+.form-ayuda{
+    text-align: center;
+}
+#formulario-ayuda{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+ 
+   
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(1,100px) ;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+
+}
+
+
+.header-index,.grid-nav{
+    grid-column: 100vh;
+    background-color:$colorfondonav ;
+    
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+    
+}
+.titulo-index{
+    position: relative;
+    left: 730px;
+ 
+ 
+}
+.seccion-index{
+    width: 650px;
+}
+
+.ul-index{
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    gap: 80px;
+   justify-content: end;
+    color: $colortexto;
+    width: 250vh;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    gap: 80px;
+   justify-content: end;
+    color: $colortexto;
+    width: 250vh;
+    
+    
+}
+.footer-index{
+    width: 690px;
+   display: flex;
+    color: $colortexto;
+    font-size: larger;
+    
+    height: 150px;
+    ;
+    grid-column: 100vh;
+    background-color:$colorfondonav ;
+    
+    justify-content: center;
+    align-items: center;
+}
+   
+    section{
+   width: 100vh;
+}
+.grid-nav{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  
+    
+  
+    .footer-index{
+    width: 210vh;
+   justify-content:space-evenly;
+   
+  }
+  .grid-nav, .h3-index, .ul-index{
+    gap: 190px;
+    justify-content: center;
+    
+    
+  }
+
+.seccion-index{
+ display: flex;
+ 
+ padding: 5px;
+ width: 1200px;
+ 
+   
+}
+}
+  
+.flex-container-ayuda{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+gap: 20p;}
+  
+.ayuda-body{
+    background-size: cover;
+}
+.titulo-ayuda{
+    text-align: center;
+    width: 400px;
+}
+.ayuda-container{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.text-ayuda{
+    height: 50px;
+    width: 300px;
+}
+#ayuda{
+    text-align: end;
+}
+.ayuda-nav{
+     background-color:$colorfondonav ;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.footer-ayuda{
+    width: 100vh;
+   display: flex;
+    color: $colortexto;
+    font-size: larger;
+    
+    height: 150px;
+    ;
+    grid-column: 100vh;
+    background-color:$colorfondonav ;
+    
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:481px) {
+    .titulo-ayuda{
+        width: 1200px;
+    }
+    .ayuda-nav{
+        gap: 5px;
+        width: 78vh;
+
+    }
+    .footer-ayuda{
+        justify-content: center;
+    }
+   
+
+}
+@media screen and (min-width:1000px){
+    .titulo-ayuda{
+        width: 1500px;
+    }
+    .footer-ayuda{
+        width: 210vh;
+        justify-content: center;
+    }
+    
+}
+
+.flex-container-rutina{
+    width: 100vh;
+    height: 100vh;
+}
+.rutina-nav{
+    width: 800px;
+    background-color:$colorfondonav ;
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header-rutina{
+width: 800px;
+text-align: center;
+
+}
+.seccion-video{
+size: 5px;
+}
+.titulo-entrenamientos{
+    text-align: end;
+}
+
+@media screen and (min-width:1200px){
+.rutina-nav{width: 1500px;
+    justify-content: flex-start;
+   
+   gap: 230px;
+
+}
+.header-rutina{
+    width: 1500px;
+    left: 600px;
+}
+.Rutinas{
+    flex-direction: row;
+    gap: 2px;
+    
+}
+}
+.footer-contacto{
+    width: 600px;
+    display: flex;
+     color: $colortexto;
+     font-size: larger;
+     
+     height: 350px;
+     ;
+     background-color:$colorfondonav ;
+     
+     justify-content: center;
+     align-items: center;
+
+}
+.body-contacto{
+    
+    height: 100vh;
+}
+.header-contacto{
+    text-align: center;
+    width: 600px;
+}
+#contacto-container{
+  display: flex;}
+
+.contacto-nav-2{background-color:$colorfondonav ;
+    padding:5px;
+    display: flex;
+    justify-content: end;
+    gap: 45px;
+    width: 590px;
+
+}
+.Contacto-Container{
+    display: flex;
+    justify-content: end;
+    padding: 10px;;
+    color: $colortexto;
+width: 400px;}
+.Contacto-mensaje{
+    color: $colortexto;
+    text-align: center;
+    width: 600px;
+}
+.boton-contacto{
+    text-align: center;
+    width: 600px;
+}
+.contacto-subtitulo{
+    text-align: center;
+}
+@media screen and (min-width:1200px){
+    .footer-contacto{
+        height:150px;
+        width: 210vh;
+    }
+    .contacto-nav-2{
+        width: 205vh;
+        justify-content: flex-start;
+        gap: 150px;
+    }
+    .header-contacto{
+        width: 210vh;
+    }
+    .Contacto-Container{
+    width: 750px;
+        text-align:start ;
+        padding: 10px;;
+        color: $colortexto;}
+        
+        .Contacto-mensaje{
+            width: 1300px;
+            text-align:center;
+        }
+        .boton-contacto{
+            width: 1300px;
+            text-align: center;
+
+        }
+        .contacto-titulo{
+           display: block;
+        }
+}
+
+
+
+
