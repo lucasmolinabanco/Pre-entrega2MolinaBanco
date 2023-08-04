@@ -1,0 +1,42 @@
+body{
+    background-color: slategrey;
+}
+.carrito-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    
+}
+.carrito-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+.carrito-header-title{ justify-self: start;}
+.carrito-header-button{
+    cursor: pointer;
+}
+.total-content{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ver-carrito{
+    background-color: grey;
+    color: white;
+    width: 200px;
+
+}
